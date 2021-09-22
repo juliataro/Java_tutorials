@@ -1,3 +1,5 @@
+package week1;
+
 import java.util.Scanner;
 // Story creation game
 public class loops {
