@@ -31,9 +31,6 @@ public class loops {
             System.out.println( "Do we continue? If yes - type a noun :");
             String fourth = reader.nextLine();
 
-
-
-
         }
     }
 }

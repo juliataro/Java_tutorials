@@ -20,8 +20,19 @@ public class Ex7 {
 
         System.out.print("Type an integer: ");
         int number = Integer.parseInt(reader.nextLine());
-
         System.out.println("You typed " + number);
+
+
+        // One more variant
+
+        // Both String and integer can be passed a parameter to Integer.valueOf()
+        // whereas only a String can be passed as parameter to Integer.parseInt().
+
+        //  public static Integer valueOf(int a)
+        //  public static Integer valueOf(String str)
+        //  public static Integer valueOf(String str, int base)
+
+
 
 
 
