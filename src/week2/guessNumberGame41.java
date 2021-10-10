@@ -11,7 +11,6 @@ public class guessNumberGame41 {
 
         secretNumber = (int) (Math.random()*100)+1;
 
-
         Scanner reader = new Scanner(System.in);
 
         while (true){
