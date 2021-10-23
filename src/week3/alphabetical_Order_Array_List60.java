@@ -6,7 +6,9 @@ import java.util.Collections;
 import java.util.Scanner;
 
 public class alphabetical_Order_Array_List60 {
+
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
         ArrayList<String> composers = new ArrayList<String>();
 
