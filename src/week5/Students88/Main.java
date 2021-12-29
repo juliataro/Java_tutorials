@@ -15,17 +15,19 @@ public class Main {
             System.out.println("name: ");
             name = reader.nextLine();
 
-            if(name.isEmpty())
+            if (name.isEmpty()) {
                 break;
+            }
 
             System.out.println("studentnumber: ");
             studentnumber = reader.nextLine();
 
-            Student buffer = new Student(name, studentnumber);
+            Student holder = new Student(name, studentnumber);
 
-            list.add(buffer);
+            list.add(holder);
         }
 
+        // list of students iteration
         for (Student i : list){
             System.out.println(i.toString());
         }
@@ -37,6 +39,7 @@ public class Main {
 
         System.out.println("Result: ");
 
+        // search iteration
         for(Student j : list) {
             if(j.getName().contains(search)){
                 System.out.println(j);

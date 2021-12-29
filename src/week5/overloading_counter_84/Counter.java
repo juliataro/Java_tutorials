@@ -32,17 +32,14 @@ public class Counter {
 
     }
 
-    // Returns the current value of the counter
     public int value() {
         return this.counter;
     }
 
-    // Increases the value of the counter by one
     public void increase() {
         this.counter++;
     }
 
-    // Decreases the value of the counter by one, but not below 0 if the check is on
     public void decrease() {
         if (this.check) {
             if(this.counter >= 1){
@@ -52,21 +49,17 @@ public class Counter {
         }
     }
 
-  //   Overload of "increase" method
+  //   Overload of increase mth
     public void increase(int increaseAmount) {
         if (increaseAmount >= 1) {
             this.counter += increaseAmount;
         }
     }
 
-   //  Overload of decrease method
+   //  Overload of decrease mth
     public void decrease(int decreaseAmount) {
         if (this.check && decreaseAmount <= this.number && 1 <= decreaseAmount) {
             this.counter = this.counter - decreaseAmount;
         }
     }
-
-
-
-
 }

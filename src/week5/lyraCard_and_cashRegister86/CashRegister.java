@@ -48,7 +48,6 @@ public class CashRegister {
     }
 
     public boolean payEconomical(LyyraCard card) {
-
         // if the balance of the card is at least the price of the lunch:
         if (card.balance() >= 2.50) {
             //    the amount of sold lunches is incremented by one

@@ -20,21 +20,21 @@ public class Apartment {
     }
 
     public int priceDifference(Apartment otherApartment){
-        int thisBuffer = this.squareMeters * this.pricePerSquareMeter;
-        int Buffer = otherApartment.squareMeters * otherApartment.pricePerSquareMeter;
+        int thisApPrice = this.squareMeters * this.pricePerSquareMeter;
+        int otherApPrice = otherApartment.squareMeters * otherApartment.pricePerSquareMeter;
 
-        return Math.abs(thisBuffer - Buffer);
+        return Math.abs(thisApPrice - otherApPrice);
         //return thisBuffer - Buffer;
     }
 
     public boolean moreExpensiveThan(Apartment otherApartment) {
-        //int thisBuffer = this.squareMeters * this.pricePerSquareMeter;
-        //int Buffer = otherApartment. * otherApartment.pricePerSquareMeter;
-        int Buffer2 = otherApartment.squareMeters * otherApartment.pricePerSquareMeter;
-        int Buffer1 = this.squareMeters * this.pricePerSquareMeter;
+        //int thisApPrice = this.squareMeters * this.pricePerSquareMeter;
+        //int otherApPrice = otherApartment. * otherApartment.pricePerSquareMeter;
+        int Price2 = otherApartment.squareMeters * otherApartment.pricePerSquareMeter;
+        int Price1 = this.squareMeters * this.pricePerSquareMeter;
 
         //if()
-        if (Buffer1> Buffer2)
+        if (Price1> Price2)
             return true;
         else
             return false;
